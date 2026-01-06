@@ -108,6 +108,6 @@ app.get("/health", (req, res) => {
 
 app.listen(3000, function(err){
     if (err) console.log(err)
-    console.log("Server listening on Port", 3000);
+    console.log("Server listening on Port", 8000);
 })
 module.exports = app;
