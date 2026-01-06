@@ -106,7 +106,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "healthy" });
 });
 
-app.listen(3000, function(err){
+app.listen(8000, function(err){
     if (err) console.log(err)
     console.log("Server listening on Port", 8000);
 })
